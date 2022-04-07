@@ -130,8 +130,8 @@ blockquote p {
 }
 
 .curveUpColor, .curveDownColor {
-  fill: rgb(36, 36, 36);
-  stroke: rgb(36, 36, 36);
+  fill: rgb(53, 53, 53);
+  stroke: rgb(53, 53, 53);
   position: absolute;
   left: 0;
   z-index: 1;
@@ -509,7 +509,7 @@ blockquote p {
 .parallax-section {
   z-index: -1;
   clear: both;
-  background-image: url('images/home.jpg');
+  background-image: url('images/main.jpg');
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -525,16 +525,10 @@ blockquote p {
 }
 
 .parallax-section .content-header, .home-slider .content-header {
-  padding: 145px 0 250px;
+  padding:20px 0 120px;
 }
 
-.parallax2 .content {
-  padding: 100px 0;
-}
 
-.top-slider .content-header {
-  padding: 130px 0;
-}
 
 .parallax-section .content h2,
 .content-header h2,
